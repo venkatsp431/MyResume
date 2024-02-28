@@ -41,6 +41,36 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <link href="assets/css/style.css" rel="stylesheet" />
+    <style>
+      .project-container {
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .project-container img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      .project-title {
+        font-size: 18px;
+
+        margin-bottom: 10px;
+      }
+
+      .project-buttons {
+        display: flex;
+        justify-content: center;
+      }
+
+      .project-buttons button {
+        margin: 5px;
+      }
+    </style>
   </head>
 
   <body>
@@ -395,123 +425,145 @@
             </p>
           </div>
 
-          <div>
-            <div className="row">
-              <div className="col-md-3 mb-3">
-                <figure>
-                  <img src="1.png" alt="Image 1" style="width: 250px" />
-                  <a
-                    href="	https://github.com/venkatsp431/dynamic-portfolio"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="btn btn-primary">Frontend Code</button>
-                  </a>
-                  <a
-                    href="https://github.com/venkatsp431/dp-backend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="btn btn-secondary">Backend Code</button>
-                  </a>
-                  <a
-                    href="https://effulgent-starburst-c05a93.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="btn btn-lg btn-primary">Go Live</button>
-                  </a>
-                </figure>
-              </div>
+          <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-3 mb-3">
+              <figure>
+                <img src="1.png" alt="Image 1" style="width: 250px" />
+                <div class="project-title">Dynamic Portfolio</div>
+                <a
+                  href="https://github.com/venkatsp431/dynamic-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-secondary btn-block my-2">
+                    Frontend Code
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/venkatsp431/dp-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-secondary btn-block my-2">
+                    Backend Code
+                  </button>
+                </a>
+                <a
+                  href="https://effulgent-starburst-c05a93.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-lg btn-primary btn-block my-2">
+                    Go Live
+                  </button>
+                </a>
+              </figure>
+            </div>
 
-              <div className="col-md-3 mb-3">
-                <figure>
-                  <img src="2.png" alt="Image 2" style="width: 250px" />
+            <!-- Project 2 -->
+            <div class="col-md-3 mb-3">
+              <figure>
+                <img src="2.png" alt="Image 2" style="width: 250px" />
+                <div class="project-title">Stack Overflow</div>
+                <a
+                  href="https://github.com/venkatsp431/stackoverflow"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-secondary btn-block my-2">
+                    Frontend Code
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/venkatsp431/stackoverflow-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-secondary btn-block my-2">
+                    Backend Code
+                  </button>
+                </a>
+                <a
+                  href="https://lighthearted-creponne-919a17.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-lg btn-primary btn-block my-2">
+                    Go Live
+                  </button>
+                </a>
+              </figure>
+            </div>
 
-                  <a
-                    href="	https://github.com/venkatsp431/stackoverflow"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="btn btn-primary">Frontend Code</button>
-                  </a>
-                  <a
-                    href="https://github.com/venkatsp431/stackoverflow-backend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="btn btn-secondary">Backend Code</button>
-                  </a>
-                  <a
-                    href="https://lighthearted-creponne-919a17.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="btn btn-lg btn-primary">
-                      Go Live
-                    </button></a
-                  >
-                </figure>
-              </div>
+            <!-- Project 3 -->
+            <div class="col-md-3 mb-3">
+              <figure>
+                <img src="3.png" alt="Image 3" style="width: 250px" />
+                <div class="project-title">Blog App</div>
+                <a
+                  href="https://github.com/venkatsp431/bloggy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-secondary btn-block my-2">
+                    Frontend Code
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/venkatsp431/bloggy-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-secondary btn-block my-2">
+                    Backend Code
+                  </button>
+                </a>
+                <a
+                  href="https://graceful-klepon-385255.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-lg btn-primary btn-block my-2">
+                    Go Live
+                  </button>
+                </a>
+              </figure>
+            </div>
 
-              <div className="col-md-3 mb-3">
-                <figure>
-                  <img src="3.png" alt="Image 3" style="width: 250px" /><a
-                    href="https://github.com/venkatsp431/bloggy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><button className="btn btn-primary">
-                      Frontend Code
-                    </button></a
-                  >
-                  <a
-                    href="https://github.com/venkatsp431/bloggy-backend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><button className="btn btn-secondary">
-                      Backend Code
-                    </button></a
-                  >
-                  <a
-                    href="https://graceful-klepon-385255.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><button className="btn btn-lg btn-primary">
-                      Go Live
-                    </button></a
-                  >
-                </figure>
-              </div>
-
-              <div className="col-md-3 mb-3">
-                <figure>
-                  <img src="4.png" alt="Image 4" style="width: 250px" /><a
-                    href="https://github.com/venkatsp431/mentor-student"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><button className="btn btn-primary">
-                      Frontend Code
-                    </button></a
-                  >
-                  <a
-                    href="https://github.com/venkatsp431/mentor-student-backend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="btn btn-secondary">
-                      Backend Code
-                    </button></a
-                  >
-                  <a
-                    href="https://endearing-piroshki-d15440.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><button className="btn btn-lg btn-primary">
-                      Go Live
-                    </button></a
-                  >
-                </figure>
-              </div>
+            <!-- Project 4 -->
+            <div class="col-md-3 mb-3">
+              <figure>
+                <img src="e-shopper.png" alt="Image 4" style="width: 250px" />
+                <div class="project-title">Shopping App</div>
+                <a
+                  href="https://github.com/venkatsp431/choosify-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-secondary btn-block my-2">
+                    Frontend Code
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/venkatsp431/choosify-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-secondary btn-block my-2">
+                    Backend Code
+                  </button>
+                </a>
+                <a
+                  href="https://deft-kleicha-ca1e67.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button class="btn btn-lg btn-primary btn-block my-2">
+                    Go Live
+                  </button>
+                </a>
+              </figure>
             </div>
           </div>
         </div>
@@ -533,7 +585,6 @@
                   <h4>Location:</h4>
                   <p>No 1/97-1, NB Agraharam, Hosur</p>
                 </div>
-
                 <div class="email">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
@@ -549,12 +600,7 @@
             </div>
 
             <div class="col-lg-8 mt-5 mt-lg-0">
-              <form
-                action="forms/contact.js"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
+              <form id="dataForm" role="form" class="php-email-form">
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
@@ -593,6 +639,7 @@
                     name="message"
                     rows="5"
                     placeholder="Message"
+                    id="message"
                     required
                   ></textarea>
                 </div>
@@ -604,7 +651,7 @@
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="button" id="submitButton">Send Message</button>
                 </div>
               </form>
             </div>
@@ -639,6 +686,68 @@
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
+    <script>
+      document
+        .getElementById("submitButton")
+        .addEventListener("click", async function () {
+          // Get input values directly
+          let name = document.getElementById("name").value;
+          let email = document.getElementById("email").value;
+          let subject = document.getElementById("subject").value;
+          let message = document.getElementById("message").value;
+
+          let data = {
+            name: name,
+            email: email,
+            subject: subject,
+            message: message,
+          };
+
+          try {
+            // Show loading spinner
+            document.querySelector(".loading").style.display = "block";
+
+            const response = await fetch(
+              "https://portfolio-backend-jubj.onrender.com/api/contact",
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  "X-Requested-With": "XMLHttpRequest",
+                },
+                body: JSON.stringify(data),
+              }
+            );
+
+            if (response.ok) {
+              const result = await response.json();
+              console.log("Success:", result);
+
+              // Show success message
+              document.querySelector(".loading").style.display = "none";
+              document.querySelector(".sent-message").style.display = "block";
+
+              // Optionally clear the input values
+              document.getElementById("name").value = "";
+              document.getElementById("email").value = "";
+              document.getElementById("subject").value = "";
+              document.getElementById("message").value = "";
+            } else {
+              const error = await response.text();
+              console.error("Error:", error);
+
+              // Show error message
+              alert("Failed to send message. Please try again.");
+            }
+          } catch (error) {
+            console.error("Request failed:", error);
+
+            // Show error message
+            alert("Failed to send message. Please try again.");
+          }
+        });
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
